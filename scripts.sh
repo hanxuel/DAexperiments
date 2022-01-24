@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python train_ptrans.py  --out_path ../../DAexperiments/Pointtransformer/modelnet_to_shapenet --dataroot ../../ --src_dataset modelnet --trgt_dataset shapenet --config config/PointTransformer.yaml --epochs=150 --sch_initial_epochs=5
